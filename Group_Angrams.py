@@ -9,5 +9,5 @@ def group_anagrams(a):
         dfdict[sorted_i].append(i) #This line adds the current string in the for loop, i, to the list of values in the defaultdict that corresponds to the key sorted_i. If the key sorted_i does not yet exist in the defaultdict, it will be automatically created with an empty list as the value.
     return dfdict.values()
 
-words = ["tea", "eat", "bat", "ate", "arc", "car"]
+words = ["tea", "eat", "bat", "ate", "arc", "car", "tab"]
 print(group_anagrams(words))
